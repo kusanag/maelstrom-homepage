@@ -1,0 +1,65 @@
+---
+title: MAELSTROM // GRID-07
+description: A cyberpunk dashboard for your own services
+theme: dark
+color: red
+headerStyle: clean
+hideVersion: true
+disableUpdateCheck: true
+disableIndexing: true
+statusStyle: dot
+fullWidth: true
+maxGroupColumns: 6
+background:
+  image: /images/backwall_cyberpunk.png
+  opacity: 100
+cardBlur: sm
+quicklaunch:
+  searchDescriptions: true
+  hideInternetSearch: false
+  showSearchSuggestions: false
+layout:
+  MEDIA:
+    tab: GRID
+    style: column
+    icon: mdi-play-box-#ff293d
+  DOWNLOADS:
+    tab: GRID
+    style: column
+    icon: mdi-download-#ff293d
+  WORKSPACE:
+    tab: GRID
+    style: column
+    icon: mdi-notebook-#ff293d
+  MONITORING:
+    tab: GRID
+    style: column
+    icon: mdi-radar-#ff293d
+  INFRASTRUCTURE:
+    tab: GRID
+    style: column
+    icon: mdi-server-#ff293d
+  BACKGROUND TASKS:
+    tab: GRID
+    style: column
+    icon: mdi-cog-#ff293d
+  SYSTEM HEALTH:
+    tab: VITALS
+    style: column
+    icon: mdi-heart-pulse-#ff293d
+  NETWORK:
+    tab: VITALS
+    style: column
+    icon: mdi-lan-#ff293d
+  STORAGE:
+    tab: VITALS
+    style: column
+    icon: mdi-harddisk-#ff293d
+  COMPUTE:
+    tab: VITALS
+    style: column
+    icon: mdi-chip-#ff293d
+  PRIVATE TOOLS:
+    tab: PRIVATE
+    style: column
+    icon: mdi-lock-#ff293d

@@ -1,0 +1,182 @@
+---
+# All entries are fictional placeholders. Replace with your own services.
+# No widgets, probes, host discovery, or API keys are configured.
+- MEDIA:
+    - Video Library:
+        icon: mdi-play-box-#ff293d
+        href: https://example.com/video-library
+        description: YOUR SERVICE // CONFIGURE ME
+    - Music Library:
+        icon: mdi-play-box-#ff293d
+        href: https://example.com/music-library
+        description: YOUR SERVICE // CONFIGURE ME
+    - Photo Library:
+        icon: mdi-play-box-#ff293d
+        href: https://example.com/photo-library
+        description: YOUR SERVICE // CONFIGURE ME
+    - Reading Room:
+        icon: mdi-play-box-#ff293d
+        href: https://example.com/reading-room
+        description: YOUR SERVICE // CONFIGURE ME
+- DOWNLOADS:
+    - Transfer Queue:
+        icon: mdi-download-#ff293d
+        href: https://example.com/transfer-queue
+        description: YOUR SERVICE // CONFIGURE ME
+    - Archive Manager:
+        icon: mdi-download-#ff293d
+        href: https://example.com/archive-manager
+        description: YOUR SERVICE // CONFIGURE ME
+    - Feed Reader:
+        icon: mdi-download-#ff293d
+        href: https://example.com/feed-reader
+        description: YOUR SERVICE // CONFIGURE ME
+    - Inbox:
+        icon: mdi-download-#ff293d
+        href: https://example.com/inbox
+        description: YOUR SERVICE // CONFIGURE ME
+- WORKSPACE:
+    - Notes:
+        icon: mdi-notebook-#ff293d
+        href: https://example.com/notes
+        description: YOUR SERVICE // CONFIGURE ME
+    - Documents:
+        icon: mdi-notebook-#ff293d
+        href: https://example.com/documents
+        description: YOUR SERVICE // CONFIGURE ME
+    - Calendar:
+        icon: mdi-notebook-#ff293d
+        href: https://example.com/calendar
+        description: YOUR SERVICE // CONFIGURE ME
+    - Projects:
+        icon: mdi-notebook-#ff293d
+        href: https://example.com/projects
+        description: YOUR SERVICE // CONFIGURE ME
+- MONITORING:
+    - Status Board:
+        icon: mdi-radar-#ff293d
+        href: https://example.com/status-board
+        description: YOUR SERVICE // CONFIGURE ME
+    - Metrics:
+        icon: mdi-radar-#ff293d
+        href: https://example.com/metrics
+        description: YOUR SERVICE // CONFIGURE ME
+    - Logs:
+        icon: mdi-radar-#ff293d
+        href: https://example.com/logs
+        description: YOUR SERVICE // CONFIGURE ME
+    - Alerts:
+        icon: mdi-radar-#ff293d
+        href: https://example.com/alerts
+        description: YOUR SERVICE // CONFIGURE ME
+- INFRASTRUCTURE:
+    - Compute Console:
+        icon: mdi-server-#ff293d
+        href: https://example.com/compute-console
+        description: YOUR SERVICE // CONFIGURE ME
+    - Network Console:
+        icon: mdi-server-#ff293d
+        href: https://example.com/network-console
+        description: YOUR SERVICE // CONFIGURE ME
+    - Storage Console:
+        icon: mdi-server-#ff293d
+        href: https://example.com/storage-console
+        description: YOUR SERVICE // CONFIGURE ME
+    - Backup Console:
+        icon: mdi-server-#ff293d
+        href: https://example.com/backup-console
+        description: YOUR SERVICE // CONFIGURE ME
+- BACKGROUND TASKS:
+    - Worker Alpha:
+        icon: mdi-cog-#ff293d
+        href: https://example.com/worker-alpha
+        description: YOUR SERVICE // CONFIGURE ME
+    - Worker Beta:
+        icon: mdi-cog-#ff293d
+        href: https://example.com/worker-beta
+        description: YOUR SERVICE // CONFIGURE ME
+    - Scheduler:
+        icon: mdi-cog-#ff293d
+        href: https://example.com/scheduler
+        description: YOUR SERVICE // CONFIGURE ME
+    - Sync Worker:
+        icon: mdi-cog-#ff293d
+        href: https://example.com/sync-worker
+        description: YOUR SERVICE // CONFIGURE ME
+    - Indexer:
+        icon: mdi-cog-#ff293d
+        href: https://example.com/indexer
+        description: YOUR SERVICE // CONFIGURE ME
+    - Event Queue:
+        icon: mdi-cog-#ff293d
+        href: https://example.com/event-queue
+        description: YOUR SERVICE // CONFIGURE ME
+    - Archive Worker:
+        icon: mdi-cog-#ff293d
+        href: https://example.com/archive-worker
+        description: YOUR SERVICE // CONFIGURE ME
+- SYSTEM HEALTH:
+    - Processor:
+        icon: mdi-heart-pulse-#ff293d
+        href: https://example.com/processor
+        description: YOUR SERVICE // CONFIGURE ME
+    - Memory:
+        icon: mdi-heart-pulse-#ff293d
+        href: https://example.com/memory
+        description: YOUR SERVICE // CONFIGURE ME
+    - Storage:
+        icon: mdi-heart-pulse-#ff293d
+        href: https://example.com/storage
+        description: YOUR SERVICE // CONFIGURE ME
+    - Network:
+        icon: mdi-heart-pulse-#ff293d
+        href: https://example.com/network
+        description: YOUR SERVICE // CONFIGURE ME
+    - Uptime:
+        icon: mdi-heart-pulse-#ff293d
+        href: https://example.com/uptime
+        description: YOUR SERVICE // CONFIGURE ME
+    - Backups:
+        icon: mdi-heart-pulse-#ff293d
+        href: https://example.com/backups
+        description: YOUR SERVICE // CONFIGURE ME
+    - Processes:
+        icon: mdi-heart-pulse-#ff293d
+        href: https://example.com/processes
+        description: YOUR SERVICE // CONFIGURE ME
+- NETWORK:
+    - Traffic Overview:
+        icon: mdi-lan-#ff293d
+        href: https://example.com/traffic-overview
+        description: YOUR SERVICE // CONFIGURE ME
+    - Connectivity:
+        icon: mdi-lan-#ff293d
+        href: https://example.com/connectivity
+        description: YOUR SERVICE // CONFIGURE ME
+- STORAGE:
+    - Capacity:
+        icon: mdi-harddisk-#ff293d
+        href: https://example.com/capacity
+        description: YOUR SERVICE // CONFIGURE ME
+    - Snapshots:
+        icon: mdi-harddisk-#ff293d
+        href: https://example.com/snapshots
+        description: YOUR SERVICE // CONFIGURE ME
+- COMPUTE:
+    - Host Overview:
+        icon: mdi-chip-#ff293d
+        href: https://example.com/host-overview
+        description: YOUR SERVICE // CONFIGURE ME
+    - Workloads:
+        icon: mdi-chip-#ff293d
+        href: https://example.com/workloads
+        description: YOUR SERVICE // CONFIGURE ME
+- PRIVATE TOOLS:
+    - Private Service One:
+        icon: mdi-lock-#ff293d
+        href: https://example.com/private-service-one
+        description: YOUR SERVICE // CONFIGURE ME
+    - Private Service Two:
+        icon: mdi-lock-#ff293d
+        href: https://example.com/private-service-two
+        description: YOUR SERVICE // CONFIGURE ME

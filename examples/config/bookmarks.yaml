@@ -1,0 +1,8 @@
+---
+- UPLINKS:
+    - Homepage Docs:
+        - abbr: HP
+          href: https://gethomepage.dev/
+    - Your Link:
+        - abbr: UL
+          href: https://example.com/

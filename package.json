@@ -1,0 +1,12 @@
+{
+  "name": "maelstrom-homepage",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A reusable cyberpunk theme for Homepage",
+  "scripts": {
+    "test:browser": "node tests/browser.cjs && node tests/boot-loading.cjs && node tests/blackwall.cjs"
+  },
+  "devDependencies": {
+    "playwright": "1.58.2"
+  }
+}

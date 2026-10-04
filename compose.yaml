@@ -1,0 +1,16 @@
+services:
+  homepage:
+    image: ghcr.io/gethomepage/homepage:v2.4.0
+    restart: unless-stopped
+    ports:
+      - "${HOMEPAGE_BIND:-127.0.0.1}:${HOMEPAGE_PORT:-3000}:3000"
+    env_file: .env
+    environment:
+      HOMEPAGE_ALLOWED_HOSTS: ${HOMEPAGE_ALLOWED_HOSTS:-localhost:3000,127.0.0.1:3000}
+      HOMEPAGE_AUTH_ENABLED: "false"
+      HOMEPAGE_MCP_ENABLED: "false"
+      HOMEPAGE_MCP_ALLOW_WRITE: "false"
+      TZ: ${TZ:-UTC}
+    volumes:
+      - ./config:/app/config
+      - ./config/images:/app/public/images:ro

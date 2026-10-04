@@ -1,0 +1,16 @@
+# Local deployment: never commit credentials or personalized configuration.
+/config/
+.env
+.env.*
+!.env.example
+/secrets/
+/backups/
+*.pem
+*.key
+*.log
+node_modules/
+__pycache__/
+.pytest_cache/
+/test-results/
+/playwright-report/
+.DS_Store

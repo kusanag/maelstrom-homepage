@@ -1,0 +1,14 @@
+---
+- greeting:
+    text_size: 2xl
+    text: MAELSTROM
+- search:
+    provider: duckduckgo
+    target: _blank
+    focus: false
+- datetime:
+    text_size: xl
+    format:
+      dateStyle: medium
+      timeStyle: short
+      hour12: false
